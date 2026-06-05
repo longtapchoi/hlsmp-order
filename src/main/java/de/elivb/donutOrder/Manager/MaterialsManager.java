@@ -377,7 +377,8 @@ public class MaterialsManager {
    }
 
    public SpecialItemEntry getItemByIdentifier(String identifier) {
-      return (SpecialItemEntry)this.itemByIdentifier.getOrDefault(identifier, (Object)null);
+      return (SpecialItemEntry)this.itemByIdentifier.get(identifier);
+
    }
 
    public SpecialItemEntry getNormalItem(Material material) {

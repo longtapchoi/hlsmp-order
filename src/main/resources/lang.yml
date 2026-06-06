@@ -1,0 +1,49 @@
+#Tại đây bạn có thể thay đổi tất cả tin nhắn của plugin
+
+#Tiền tố của plugin
+prefix-enable: true
+prefix: '&#00fc88ᴏʀᴅᴇʀ &7» '
+
+messages:
+  no-permission: "&cBạn không có quyền làm điều đó!"
+  only-players: "Chỉ người chơi mới dùng được lệnh này!"
+  no-items-to-collect: "&cBạn không có vật phẩm nào để nhận cho đơn hàng này!"
+  plugin-reloaded: "&#00FF00HLSMPOrder đã được tải lại!"
+  no-orders: "&cKhông có đơn hàng nào đang hoạt động!"
+  order-created: "&fBạn đã tạo đơn hàng &#00fc88%amount% %item% &fvới giá &#00fc88$%price% &fmỗi cái! &7(Tổng: $%total_price%)"
+  chat-input: "&cVui lòng nhập %type% vào bảng, hoặc để trống để hủy!"
+  chat-input-cancel: "&cĐã hủy nhập liệu!"
+  amount-set: "&fSố lượng đã đặt thành &#00fc88%amount%&f!"
+  price-set: "&fGiá đã đặt thành &#00fc88$%price%&f!"
+  amount-too-low: "&cSố lượng phải ít nhất là %min%!"
+  amount-too-high: "&cSố lượng không được vượt quá %max%!"
+  price-too-low: "&cGiá phải ít nhất là $%min%!"
+  price-too-high: "&cGiá không được vượt quá $%max%!"
+  no-money: "&cBạn không đủ tiền!"
+  no-items: "&cBạn không đủ vật phẩm!"
+  order-not-available: "&cĐơn hàng này không còn khả dụng!"
+  no-items-to-deliver: "&cKhông có vật phẩm nào để giao cho đơn hàng này!"
+  inventory-full: "&cTúi đồ của bạn đã đầy!"
+  items-collected: "&fBạn đã nhận được &#00fc88%amount% %item%&f!"
+  delivery-cancelled: "&cĐã hủy giao hàng!"
+  order-finished: "&aĐơn hàng đã được giao hoàn tất!"
+  error: "&cBạn không thể làm điều này lúc này!"
+  order-cancelled-success: "&aHủy đơn hàng thành công!"
+  cancelled-closed: "&cĐã hủy việc hủy đơn hàng!"
+  refund-success: "&fĐã hủy đơn hàng và hoàn tiền thành công! &a+$%amount%"
+  cannot-deliver-own: "&cBạn không thể giao đơn hàng của chính mình!"
+  expired: "&cĐơn hàng này đã hết hạn!"
+  already-delivered: "&cĐơn hàng này đã được giao đầy đủ rồi!"
+  reward-messages: "&fBạn nhận được &#00fc88$%reward% &fcho việc giao đơn hàng!"
+  delivered-user: "&#00fc88%player% &fđã giao cho bạn &#00fc88%amount% %item%"
+  item-set: "&fVật phẩm đã đặt thành &#00fc88%item%&f!"
+  max-orders-reached: "&cBạn đã đạt tối đa %max% đơn hàng!"
+  select-material: "&fClick để chọn"
+
+command-usage: |
+  &#00fc88&lĐƠN HÀNG
+  &#00fc88➤ &f/order - &#00fc88Mở menu đơn hàng
+
+command-usage-admin: |
+  &#00fc88&lQUẢN LÝ ĐƠN HÀNG
+  &#00fc88➤ &f/order reload - &#00fc88Tải lại plugin

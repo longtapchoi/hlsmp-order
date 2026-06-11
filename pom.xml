@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.elivb</groupId>
-    <artifactId>DonutOrder</artifactId>
+    <artifactId>HLSMP-Order</artifactId>
     <version>1.1-HLSMP</version>
     <packaging>jar</packaging>
 
